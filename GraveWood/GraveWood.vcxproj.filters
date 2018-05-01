@@ -15,18 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
-=======
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="game.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="player.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
->>>>>>> 9470b036763a61e827ba4574c03d5a6459c0fd2e
     <ClInclude Include="game.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -36,6 +24,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
