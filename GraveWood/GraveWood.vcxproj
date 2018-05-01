@@ -115,10 +115,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <ClInclude Include="game.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="game.cpp" />
+=======
+    <ClCompile Include="game.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="player.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="game.h" />
+    <ClInclude Include="player.h" />
+>>>>>>> 9470b036763a61e827ba4574c03d5a6459c0fd2e
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
